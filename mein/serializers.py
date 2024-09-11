@@ -29,14 +29,6 @@ class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
 
 
 
-
-
-
-
-
-
-
-
 # UserSerializers
 class UserSerializers(serializers.ModelSerializer):
     class Meta:
