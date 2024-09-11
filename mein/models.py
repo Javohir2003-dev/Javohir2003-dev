@@ -17,7 +17,7 @@ class User(AbstractUser):
 
 class Category(MPTTModel):
     name = models.CharField(max_length=50, unique=True)
-    rasm = models.ImageField(upload_to='category_rasm/')
+    rasm = models.ImageField(upload_to='category_rasm/', null=True, blank=True)
     parent = TreeForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name='tur')
 
     class MPTTMeta:
@@ -29,7 +29,7 @@ class Category(MPTTModel):
 
 
 class Category_Field(models.Model):
-    rasm = models.ImageField(upload_to='category_field_rasm/')
+    rasm = models.ImageField(upload_to='category_field_rasm/', null=True, blank=True)
     name = models.CharField(max_length=100,)
     category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name='categorys')
 
