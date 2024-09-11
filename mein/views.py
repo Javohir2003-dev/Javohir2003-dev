@@ -3,8 +3,30 @@ from rest_framework.generics import ListCreateAPIView,  RetrieveUpdateDestroyAPI
 from .serializers import UserSerializers,CategorySerialzers,Category_Fields_Serializers,Product_serializers,Product_Image_serializers
 from .models import User, Category,Category_Field,Product,Product_Image
 from rest_framework.views import APIView
+from rest_framework_simplejwt.tokens import RefreshToken
 
 
+
+class MyTokenView(APIView):
+    def post(self, request):
+        username = request.data['username']
+        password = request.data['password']
+        user = User.objects.filter(username=username).last()
+
+        if user is not None:
+            tokens = RefreshToken.for_user(user=user)
+            message = {
+                "refresh": str(tokens),
+                "access": str(tokens.access_token),
+                "username": user.username,
+                "user_id": user.id,
+                "status": user.status
+            }
+            return Response(message)
+        return Response({
+            'message': 'username yoki parol xato kiritildi'
+        })
+ 
 
 class UserCreateListView(ListCreateAPIView):
     queryset = User.objects.all()
