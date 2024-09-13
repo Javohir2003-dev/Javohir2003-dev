@@ -63,6 +63,7 @@ class ProductListView(APIView):
         if serializers.is_valid():
             serializers.save()
             return Response({'message': 'yaratildi'})
+        
         return Response({'message':'kiritilishda hatolik'})
 
 
