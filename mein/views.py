@@ -56,6 +56,14 @@ class CategoryListView(ListCreateAPIView):
 
 
 class ProductListView(APIView):
+    def get(self, request):
+        product = Product.objects.all()
+        serializer = Product_serializers(product, many=True)
+        return Response(serializer.data) 
+
+
+
+
     def post(self, request):
         serializers = Product_serializers(data = request.data, context = {'request': request})
         if serializers.is_valid():
