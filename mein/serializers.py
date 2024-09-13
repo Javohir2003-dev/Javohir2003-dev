@@ -73,26 +73,7 @@ class CategorySerialzers(serializers.ModelSerializer):
 
 
 
-# Category_Fields_Serializers
 
-class Category_Fields_Serializers(serializers.ModelSerializer):
-    class Meta:
-        model = Category_Field
-        fields = ['rasm', 'name', 'category']
-    
-    def create(self, validated_data):
-
-        if Category_Field.objects.filter(name = validated_data['name']).exists():
-            raise serializers.ValidationError('bu category allaqachon mavjud !')
-        
-        category_field = Category_Field.objects.create(**validated_data)
-        return category_field
-    
-    def update(self, instance, validated_data):
-        instance.name = validated_data.get('name', instance.name)
-        instance.rasm = validated_data.get('rasm', instance.rasm)
-        instance.save()
-        return instance
 
 
 

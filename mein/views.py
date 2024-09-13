@@ -1,7 +1,7 @@
 from rest_framework.response import Response
 from rest_framework.generics import ListCreateAPIView,  RetrieveUpdateDestroyAPIView
-from .serializers import UserSerializers,CategorySerialzers,Category_Fields_Serializers,Product_serializers,Product_Image_serializers
-from .models import User, Category,Category_Field,Product,Product_Image
+from .serializers import UserSerializers,CategorySerialzers,Product_serializers,Product_Image_serializers
+from .models import User, Category,Product,Product_Image
 from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework import permissions
@@ -52,9 +52,7 @@ class CategoryListView(ListCreateAPIView):
     serializer_class = CategorySerialzers
 
 
-class Category_Field_ListView(ListCreateAPIView):
-    queryset = Category_Field.objects.all()
-    serializer_class = Category_Fields_Serializers
+
 
 
 class ProductListView(APIView):
