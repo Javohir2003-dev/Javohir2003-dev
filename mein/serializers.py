@@ -51,7 +51,7 @@ class UserSerializers(serializers.ModelSerializer):
 class CategorySerialzers(serializers.ModelSerializer):
     class Meta:
         model = Category
-        fields = ['name','rasm']
+        fields = ['name','id']
 
     
 
