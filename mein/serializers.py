@@ -103,14 +103,13 @@ class Category_Fields_Serializers(serializers.ModelSerializer):
 class Product_serializers(serializers.ModelSerializer):
     class Meta:
         model = Product
-        fields = ['user', 'tur', 'name', 'price']
+        fields = ['id', 'tur', 'name', 'price','batafsil']
 
 
     def create(self, validated_data):
-        
-        product = Product.objects.create(**validated_data)
-        return product
-
+        owner = self.context['request'].user
+        new_product = Product.objects.create(**validated_data, user=owner)
+        return new_product
 
 
 

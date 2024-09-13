@@ -57,9 +57,13 @@ class Category_Field_ListView(ListCreateAPIView):
     serializer_class = Category_Fields_Serializers
 
 
-class ProductListView(ListCreateAPIView):
-    queryset = Product.objects.all()
-    serializer_class = Product_serializers
+class ProductListView(APIView):
+    def post(self, request):
+        serializers = Product_serializers(data = request.data, context = {'request': request})
+        if serializers.is_valid():
+            serializers.save()
+            return Response({'message': 'yaratildi'})
+        return Response({'message':'kiritilishda hatolik'})
 
 
 
