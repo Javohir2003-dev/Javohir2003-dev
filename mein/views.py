@@ -45,11 +45,33 @@ class Register(ListCreateAPIView):
     queryset  = User.objects.all()
     serializer_class  = User
 
+# Category 
+
+# class CategoryListView(ListCreateAPIView):
+#     queryset = Category.objects.all()
+#     serializer_class = CategorySerialzers
 
 
-class CategoryListView(ListCreateAPIView):
-    queryset = Category.objects.all()
-    serializer_class = CategorySerialzers
+
+
+class CategoryAPIView(APIView):
+    def get(self, request):
+        category = Category.objects.all()
+        serializers = CategorySerialzers(category, many=True)
+        return Response(serializers.data)
+    
+
+    def post(self, request):
+        serializers = CategorySerialzers(data = request.data, context = {'request':request})
+        if serializers.is_valid():
+            serializers.save()
+            return Response({'message': 'category yaratildi'})
+        
+        return Response({'messages': 'category yaratilishda xatolik bor'})
+
+
+
+
 
 
 
