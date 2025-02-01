@@ -8,3 +8,4 @@
 - 📧 Email: your-email@gmail.com  
 - 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)  
 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=dark)
