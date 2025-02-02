@@ -62,7 +62,7 @@
 
 <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F70000&width=435&lines=Welcome+Norbekov+Javohir!;I+am+a+Developer!;I+love+Coding!">
-![Snake animation](https://github.com/mirsaid-mirzohidov/mirsaid-mirzohidov/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/Javohir2003-dev/Javohir2003-dev/blob/output/github-contribution-grid-snake.svg)
 
 
 
