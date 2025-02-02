@@ -18,8 +18,8 @@
 <a href="https://www.youtube.com/JavohirNorvekov" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/youtube.svg" alt="JavohirNorvekov-y6" height="30" width="40" /></a>
 <a href="https://discord.gg/auzcoder" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/discord.svg" alt="auzcoder" height="30" width="40" /></a>
 <a href="https://codepen.io/auzcoder" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/codepen.svg" alt="auzcoder" height="30" width="40" /></a>
-<a href="https://instagram.com/auzcoder" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/instagram.svg" alt="auzcoder" height="30" width="40" /></a>
-<a href="https://dev.to/auzcoder" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/devto.svg" alt="auzcoder" height="30" width="40" /></a></p>
+<a href="https://instagram.com/javohir_norbekov_571" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/instagram.svg" alt="javohir_norbekov_571" height="30" width="40" /></a>
+<a href="https://dev.to/norbekov_javohir_594d2f60" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/devto.svg" alt="norbekov_javohir_594d2f60" height="30" width="40" /></a></p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
