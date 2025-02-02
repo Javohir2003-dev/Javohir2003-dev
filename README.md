@@ -62,21 +62,6 @@
 
 <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F70000&width=435&lines=Welcome+Norbekov+Javohir!;I+am+a+Developer!;I+love+Coding!">
-<img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" width="200">
-
-
-
-<svg viewBox="0 0 64 64" width="100" height="100">
-  <defs>
-    <radialGradient id="fireGradient" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#ff0; stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#f00; stop-opacity:0"/>
-    </radialGradient>
-  </defs>
-  <circle cx="32" cy="32" r="30" fill="url(#fireGradient)">
-    <animate attributeName="r" from="20" to="30" dur="1s" repeatCount="indefinite"/>
-  </circle>
-</svg>
 
 
 
