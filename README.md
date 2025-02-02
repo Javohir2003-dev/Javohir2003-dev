@@ -1,4 +1,6 @@
 ### Hi Norbekov Javohir 
+![Snake animation](https://github.com/Javohir2003-dev/Javohir2003-dev/blob/output/github-contribution-grid-snake.svg)
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <div> <a href="https://twitter.com/" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a>
