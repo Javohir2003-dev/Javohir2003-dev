@@ -1,4 +1,5 @@
 ### Hi Norbekov Javohir 
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F70000&width=435&lines=Welcome+Norbekov+Javohir!;I+am+a+Developer!;I+love+Coding!">
 ![Snake animation](https://github.com/Javohir2003-dev/Javohir2003-dev/blob/output/github-contribution-grid-snake.svg)
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
@@ -60,6 +61,6 @@
 <img align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=Javohir2003-dev&theme=dracula"/>
 
 <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F70000&width=435&lines=Welcome+to+My+GitHub!;I+am+a+Developer!;I+love+Coding!">
+
 
 
