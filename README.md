@@ -68,9 +68,10 @@
 <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F70000&width=435&lines=Welcome+Norbekov+Javohir!;I+am+a+Developer!;I+love+Coding!">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Javohir2003-dev)](https://github.com/ryo-ma/github-profile-trophy)
+
 [![trophy](https://github-profile-trophy.vercel.app/?username=Javohir2003-dev&theme=dracula)](https://github.com/ryo-ma/github-profile-trophy)
 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Javohir2003-dev&show_icons=true&theme=radical)
 
 
 
