@@ -71,7 +71,8 @@
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=Javohir2003-dev&theme=dracula)](https://github.com/ryo-ma/github-profile-trophy)
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Javohir2003-dev&theme=dracula)
+![3D GitHub Calendar](https://github.com/Javohir2003-dev/Javohir2003-dev/blob/main/profile-3d-contrib/profile-season.gif)
+
 
 
 
