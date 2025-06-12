@@ -71,7 +71,8 @@
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=Javohir2003-dev&theme=dracula)](https://github.com/ryo-ma/github-profile-trophy)
 
-![Badge](https://img.shields.io/badge/⚡-Active%20Maintainer-blueviolet?style=for-the-badge)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Javohir2003-dev&theme=dracula)
+
 
 
 
