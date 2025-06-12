@@ -53,6 +53,10 @@
 <a href="https://github.com/Javohir2003-dev">
 <img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Javohir2003-dev&theme=darcula" height="180em" />
 
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=Javohir2003-dev)](https://github.com/ryo-ma/github-profile-trophy)
+
+
 <img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Javohir2003-dev&theme=darcula" height="180em" />
 <img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Javohir2003-dev&theme=darcula" height="180em" />
 <img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Javohir2003-dev&theme=darcula" height="180em" />
